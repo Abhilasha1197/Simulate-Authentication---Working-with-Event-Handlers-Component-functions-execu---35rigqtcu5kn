@@ -13,9 +13,9 @@ const App = () => {
             <th>Password</th>
           </tr>
           <tr>
-            <td>{/** user's name */}</td>
-            <td>{/** user's email */}</td>
-            <td>{/** user's password */}</td>
+            <td>{name}</td>
+            <td>{email}</td>
+            <td>{password}</td>
           </tr>
         </tbody>
       </table>
@@ -46,8 +46,8 @@ const App = () => {
       </div>
 
       <div>
-        <h3 id="username">{/** Logged in user's name */}</h3>
-        <h3 id="email">{/** Logged in user's email */}</h3>
+        <h3 id="username">{name}</h3>
+        <h3 id="email">{email}</h3>
         <button id="logout-button">Logout</button>
       </div>
     </div>
